@@ -1,0 +1,13 @@
+C:\Users\TimMcGuire\Documents\GitHub\VMStoWNT\Convert (VMS)\bin\Debug\netcoreapp3.1\Convert (VMS).exe
+C:\Users\TimMcGuire\Documents\GitHub\VMStoWNT\Convert (VMS)\bin\Debug\netcoreapp3.1\Convert (VMS).deps.json
+C:\Users\TimMcGuire\Documents\GitHub\VMStoWNT\Convert (VMS)\bin\Debug\netcoreapp3.1\Convert (VMS).runtimeconfig.json
+C:\Users\TimMcGuire\Documents\GitHub\VMStoWNT\Convert (VMS)\bin\Debug\netcoreapp3.1\Convert (VMS).runtimeconfig.dev.json
+C:\Users\TimMcGuire\Documents\GitHub\VMStoWNT\Convert (VMS)\bin\Debug\netcoreapp3.1\Convert (VMS).dll
+C:\Users\TimMcGuire\Documents\GitHub\VMStoWNT\Convert (VMS)\bin\Debug\netcoreapp3.1\Convert (VMS).pdb
+C:\Users\TimMcGuire\Documents\GitHub\VMStoWNT\Convert (VMS)\obj\Debug\netcoreapp3.1\Convert (VMS).csprojAssemblyReference.cache
+C:\Users\TimMcGuire\Documents\GitHub\VMStoWNT\Convert (VMS)\obj\Debug\netcoreapp3.1\Convert (VMS).AssemblyInfoInputs.cache
+C:\Users\TimMcGuire\Documents\GitHub\VMStoWNT\Convert (VMS)\obj\Debug\netcoreapp3.1\Convert (VMS).AssemblyInfo.cs
+C:\Users\TimMcGuire\Documents\GitHub\VMStoWNT\Convert (VMS)\obj\Debug\netcoreapp3.1\Convert (VMS).csproj.CoreCompileInputs.cache
+C:\Users\TimMcGuire\Documents\GitHub\VMStoWNT\Convert (VMS)\obj\Debug\netcoreapp3.1\Convert (VMS).dll
+C:\Users\TimMcGuire\Documents\GitHub\VMStoWNT\Convert (VMS)\obj\Debug\netcoreapp3.1\Convert (VMS).pdb
+C:\Users\TimMcGuire\Documents\GitHub\VMStoWNT\Convert (VMS)\obj\Debug\netcoreapp3.1\Convert (VMS).genruntimeconfig.cache

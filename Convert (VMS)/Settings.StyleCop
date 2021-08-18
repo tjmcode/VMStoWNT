@@ -1,0 +1,162 @@
+<StyleCopSettings Version="105">
+  <GlobalSettings>
+    <CollectionProperty Name="RecognizedWords">
+      <Value>ack</Value>
+      <Value>api</Value>
+      <Value>apx</Value>
+      <Value>axp</Value>
+      <Value>Bdx</Value>
+      <Value>BDX</Value>
+      <Value>BDXi</Value>
+      <Value>CNVi</Value>
+      <Value>csv</Value>
+      <Value>dle</Value>
+      <Value>Dst</Value>
+      <Value>Dsx</Value>
+      <Value>DVx</Value>
+      <Value>dw</Value>
+      <Value>enq</Value>
+      <Value>eot</Value>
+      <Value>Espanol</Value>
+      <Value>etb</Value>
+      <Value>etx</Value>
+      <Value>footzoom</Value>
+      <Value>Operations</Value>
+      <Value>footzooms</Value>
+      <Value>FPTi</Value>
+      <Value>Gepics</Value>
+      <Value>gm</Value>
+      <Value>gmw</Value>
+      <Value>Iox</Value>
+      <Value>Ip</Value>
+      <Value>Lightstack</Value>
+      <Value>Lta</Value>
+      <Value>LTA</Value>
+      <Value>mcx</Value>
+      <Value>Modicon</Value>
+      <Value>ms</Value>
+      <Value>msec</Value>
+      <Value>nak</Value>
+      <Value>nybble</Value>
+      <Value>png</Value>
+      <Value>QDXi</Value>
+      <Value>soh</Value>
+      <Value>sp</Value>
+      <Value>Sql</Value>
+      <Value>Src</Value>
+      <Value>stx</Value>
+      <Value>syn</Value>
+      <Value>TZNi</Value>
+      <Value>VCXi</Value>
+      <Value>vpps</Value>
+    </CollectionProperty>
+  </GlobalSettings>
+  <Parsers>
+    <Parser ParserId="StyleCop.CSharp.CsParser">
+      <ParserSettings>
+        <BooleanProperty Name="AnalyzeDesignerFiles">False</BooleanProperty>
+      </ParserSettings>
+    </Parser>
+  </Parsers>
+  <Analyzers>
+    <Analyzer AnalyzerId="StyleCop.CSharp.DocumentationRules">
+      <Rules>
+        <Rule Name="DocumentationTextMustBeginWithACapitalLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DocumentationTextMustEndWithAPeriod">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings>
+        <StringProperty Name="CompanyName">MicroCODE Incorporated</StringProperty>
+        <StringProperty Name="Copyright">Copyright © 2018-2020 MicroCODE Incorporated Troy, MI</StringProperty>
+        <BooleanProperty Name="IgnorePrivates">True</BooleanProperty>
+      </AnalyzerSettings>
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.LayoutRules">
+      <Rules>
+        <Rule Name="ClosingCurlyBracketMustBeFollowedByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementDocumentationHeaderMustBePrecededByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementsMustBeSeparatedByBlankLine">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.MaintainabilityRules">
+      <Rules>
+        <Rule Name="StatementMustNotUseUnnecessaryParenthesis">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="RemoveDelegateParenthesisWhenPossible">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.NamingRules">
+      <Rules>
+        <Rule Name="ElementMustBeginWithUpperCaseLetter">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FieldNamesMustNotBeginWithUnderscore">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings>
+        <CollectionProperty Name="Hungarian">
+          <Value>ao</Value>
+          <Value>io</Value>
+          <Value>ls</Value>
+          <Value>ps</Value>
+          <Value>pv</Value>
+          <Value>tc</Value>
+          <Value>vc</Value>
+        </CollectionProperty>
+      </AnalyzerSettings>
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.ReadabilityRules">
+      <Rules>
+        <Rule Name="PrefixLocalCallsWithThis">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ParameterMustNotSpanMultipleLines">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.OrderingRules">
+      <AnalyzerSettings>
+        <BooleanProperty Name="GeneratedCodeElementOrder">False</BooleanProperty>
+      </AnalyzerSettings>
+    </Analyzer>
+  </Analyzers>
+</StyleCopSettings>
