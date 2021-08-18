@@ -11,8 +11,9 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Convert (VMS)")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MicroCODE, Inc.")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2018-2020 MicroCODE Incorporated Troy, MI")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("An internal tool to convert VAX/VMS RMS Binary Files to WNT Text Files.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.9.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.9.0")]
