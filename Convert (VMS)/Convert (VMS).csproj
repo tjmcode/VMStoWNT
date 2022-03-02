@@ -10,6 +10,9 @@
     <Version>0.9.0</Version>
     <PackageReleaseNotes>Initial release to GitHub.</PackageReleaseNotes>
     <Description>An internal tool to convert VAX/VMS RMS Binary Files to WNT Text Files.</Description>
+    <Authors>Timothy J McGuire</Authors>
+    <Company>MicroCODE, Inc.</Company>
+    <Copyright>Copyright © 2018-2020 MicroCODE Incorporated Troy, MI</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
