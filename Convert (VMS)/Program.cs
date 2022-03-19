@@ -11,41 +11,41 @@
  *
  *      Designed and Coded: 2018-2021 MicroCODE Incorporated
  *
- *      This software and related materials are the property of 
+ *      This software and related materials are the property of
  *      MicroCODE Incorporated and contain confidential and proprietary
  *      information. This software and related materials shall not be
- *      duplicated, disclosed to others, or used in any way without the 
+ *      duplicated, disclosed to others, or used in any way without the
  *      written of MicroCODE Incorported.
- * 
- * 
+ *
+ *
  *      DESCRIPTION:
  *      ------------
- * 
- *      This module implements the MicroCODE C# Class for 'Convert (VMS)' to convert all our 
+ *
+ *      This module implements the MicroCODE C# Class for 'Convert (VMS)' to convert all our
  *      VAX/VMS Record Management System (RMS) files into normal WINDOWS TEXT Files for reference.
- *      
+ *
  *      The goal: Relive LADDERS Compare for Logix 5000!
- * 
- * 
- * 
+ *
+ *
+ *
  *      REFERENCES:
  *      -----------
  *
  *      1. Internet Search -- VAX/VMS Record Managment System (RMS) File Structure.
- *      
+ *
  *      2. MicroHEX - a utility to exmaine raw bytes from a WINDOWS File.
- * 
- * 
- *  
+ *
+ *
+ *
  *      MODIFICATIONS:
  *      --------------
  *
  *  Date:         By-Group:   Rev:     Description:
  *
  *  05-Aug-2021   TJM-MCODE  {0001}    New Tool to convert all VAX/VMS RMS Files to WINDOWS Text Files.
- * 
- * 
- * 
+ *
+ *
+ *
  */
 
 namespace MicroCODE
@@ -55,9 +55,9 @@ namespace MicroCODE
     using System.Runtime.InteropServices.ComTypes;
     using System.Text;
 
-/// <summary>
-/// Class for the Tool "Convert (VMS)".
-/// </summary>
+    /// <summary>
+    /// Class for the Tool "Convert (VMS)".
+    /// </summary>
     public class Program
     {
         /// <summary>
@@ -155,7 +155,7 @@ namespace MicroCODE
                 while (byteIndex < vmsReader.BaseStream.Length)
                 {
                     // test for ODD index
-                    if ((byteIndex % 2) != 0)  
+                    if ((byteIndex % 2) != 0)
                     {
                         vmsReader.ReadByte();
                         byteIndex++;  // skip padding character - should be NULL, but is stop guaranteed to be.
